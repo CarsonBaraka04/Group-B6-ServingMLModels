@@ -1,0 +1,309 @@
+{
+  "model": "Group B6 Pharmacy Association Rules",
+  "algorithm": "Apriori",
+  "rule_count": 27,
+  "rules": [
+    {
+      "antecedents": [
+        "tissues",
+        "vitamin c tablets"
+      ],
+      "consequents": [
+        "cold & flu syrup"
+      ],
+      "support": 0.03361111111111111,
+      "confidence": 0.8642857142857143,
+      "lift": 6.260419660822076
+    },
+    {
+      "antecedents": [
+        "cold & flu syrup"
+      ],
+      "consequents": [
+        "tissues",
+        "vitamin c tablets"
+      ],
+      "support": 0.03361111111111111,
+      "confidence": 0.2434607645875252,
+      "lift": 6.260419660822076
+    },
+    {
+      "antecedents": [
+        "tissues"
+      ],
+      "consequents": [
+        "cold & flu syrup",
+        "vitamin c tablets"
+      ],
+      "support": 0.03361111111111111,
+      "confidence": 0.2335907335907336,
+      "lift": 5.83976833976834
+    },
+    {
+      "antecedents": [
+        "cold & flu syrup",
+        "vitamin c tablets"
+      ],
+      "consequents": [
+        "tissues"
+      ],
+      "support": 0.03361111111111111,
+      "confidence": 0.8402777777777778,
+      "lift": 5.839768339768339
+    },
+    {
+      "antecedents": [
+        "baby diapers"
+      ],
+      "consequents": [
+        "baby lotion"
+      ],
+      "support": 0.08222222222222222,
+      "confidence": 0.597979797979798,
+      "lift": 4.322745527564805
+    },
+    {
+      "antecedents": [
+        "baby lotion"
+      ],
+      "consequents": [
+        "baby diapers"
+      ],
+      "support": 0.08222222222222222,
+      "confidence": 0.5943775100401606,
+      "lift": 4.322745527564804
+    },
+    {
+      "antecedents": [
+        "cold & flu syrup"
+      ],
+      "consequents": [
+        "tissues"
+      ],
+      "support": 0.08388888888888889,
+      "confidence": 0.6076458752515091,
+      "lift": 4.223021526844465
+    },
+    {
+      "antecedents": [
+        "tissues"
+      ],
+      "consequents": [
+        "cold & flu syrup"
+      ],
+      "support": 0.08388888888888889,
+      "confidence": 0.583011583011583,
+      "lift": 4.223021526844464
+    },
+    {
+      "antecedents": [
+        "aloe vera gel"
+      ],
+      "consequents": [
+        "sunscreen spf50"
+      ],
+      "support": 0.07916666666666666,
+      "confidence": 0.5840163934426229,
+      "lift": 4.130567812167863
+    },
+    {
+      "antecedents": [
+        "sunscreen spf50"
+      ],
+      "consequents": [
+        "aloe vera gel"
+      ],
+      "support": 0.07916666666666666,
+      "confidence": 0.5599214145383103,
+      "lift": 4.130567812167863
+    },
+    {
+      "antecedents": [
+        "face masks"
+      ],
+      "consequents": [
+        "hand sanitizer"
+      ],
+      "support": 0.075,
+      "confidence": 0.5454545454545454,
+      "lift": 4.125286478227655
+    },
+    {
+      "antecedents": [
+        "hand sanitizer"
+      ],
+      "consequents": [
+        "face masks"
+      ],
+      "support": 0.075,
+      "confidence": 0.5672268907563025,
+      "lift": 4.125286478227654
+    },
+    {
+      "antecedents": [
+        "bandages"
+      ],
+      "consequents": [
+        "antiseptic cream"
+      ],
+      "support": 0.07888888888888888,
+      "confidence": 0.5568627450980392,
+      "lift": 4.108003857280617
+    },
+    {
+      "antecedents": [
+        "antiseptic cream"
+      ],
+      "consequents": [
+        "bandages"
+      ],
+      "support": 0.07888888888888888,
+      "confidence": 0.581967213114754,
+      "lift": 4.108003857280616
+    },
+    {
+      "antecedents": [
+        "reading puzzle book"
+      ],
+      "consequents": [
+        "reading glasses"
+      ],
+      "support": 0.07888888888888888,
+      "confidence": 0.5760649087221095,
+      "lift": 4.106601329504147
+    },
+    {
+      "antecedents": [
+        "reading glasses"
+      ],
+      "consequents": [
+        "reading puzzle book"
+      ],
+      "support": 0.07888888888888888,
+      "confidence": 0.5623762376237623,
+      "lift": 4.106601329504146
+    },
+    {
+      "antecedents": [
+        "multivitamin gummies"
+      ],
+      "consequents": [
+        "vitamin c tablets"
+      ],
+      "support": 0.07833333333333334,
+      "confidence": 0.5584158415841585,
+      "lift": 3.2529078150533506
+    },
+    {
+      "antecedents": [
+        "vitamin c tablets"
+      ],
+      "consequents": [
+        "multivitamin gummies"
+      ],
+      "support": 0.07833333333333334,
+      "confidence": 0.4563106796116505,
+      "lift": 3.25290781505335
+    },
+    {
+      "antecedents": [
+        "eye drops"
+      ],
+      "consequents": [
+        "reading glasses"
+      ],
+      "support": 0.03194444444444444,
+      "confidence": 0.3362573099415204,
+      "lift": 2.397081813444502
+    },
+    {
+      "antecedents": [
+        "reading glasses"
+      ],
+      "consequents": [
+        "eye drops"
+      ],
+      "support": 0.03194444444444444,
+      "confidence": 0.2277227722772277,
+      "lift": 2.397081813444502
+    },
+    {
+      "antecedents": [
+        "eye drops"
+      ],
+      "consequents": [
+        "reading puzzle book"
+      ],
+      "support": 0.03111111111111111,
+      "confidence": 0.32748538011695905,
+      "lift": 2.391373972456496
+    },
+    {
+      "antecedents": [
+        "reading puzzle book"
+      ],
+      "consequents": [
+        "eye drops"
+      ],
+      "support": 0.03111111111111111,
+      "confidence": 0.2271805273833671,
+      "lift": 2.391373972456496
+    },
+    {
+      "antecedents": [
+        "cold & flu syrup",
+        "tissues"
+      ],
+      "consequents": [
+        "vitamin c tablets"
+      ],
+      "support": 0.03361111111111111,
+      "confidence": 0.4006622516556292,
+      "lift": 2.333954864013374
+    },
+    {
+      "antecedents": [
+        "cold & flu syrup"
+      ],
+      "consequents": [
+        "vitamin c tablets"
+      ],
+      "support": 0.04,
+      "confidence": 0.289738430583501,
+      "lift": 1.6877966830106856
+    },
+    {
+      "antecedents": [
+        "vitamin c tablets"
+      ],
+      "consequents": [
+        "cold & flu syrup"
+      ],
+      "support": 0.04,
+      "confidence": 0.23300970873786409,
+      "lift": 1.6877966830106856
+    },
+    {
+      "antecedents": [
+        "vitamin c tablets"
+      ],
+      "consequents": [
+        "tissues"
+      ],
+      "support": 0.03888888888888889,
+      "confidence": 0.22653721682847897,
+      "lift": 1.574389923904487
+    },
+    {
+      "antecedents": [
+        "tissues"
+      ],
+      "consequents": [
+        "vitamin c tablets"
+      ],
+      "support": 0.03888888888888889,
+      "confidence": 0.27027027027027023,
+      "lift": 1.5743899239044867
+    }
+  ]
+}
