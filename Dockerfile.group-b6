@@ -13,7 +13,7 @@ RUN python -m pip install --no-cache-dir \
     -r requirements/group_b6.txt
 
 # Copy Group B6 Flask application
-COPY group_b6_app.py ./
+COPY api.py ./
 COPY group_b6_regression_api.py ./
 COPY group_b6_classification_api.py ./
 COPY group_b6_clustering_api.py ./
@@ -30,4 +30,4 @@ COPY model/group_b6_pharmacy_rules.json model/
 EXPOSE 5000
 
 # Start the application with Gunicorn
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "1", "--timeout", "120", "group_b6_app:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "1", "--timeout", "120", "api:app"]
